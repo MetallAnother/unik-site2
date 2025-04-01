@@ -1,0 +1,28 @@
+@import url('//fonts.googleapis.com/earlyaccess/jejugothic.css');
+p{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttons{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.search{
+    width: 492px;
+    height: 68px;
+    background-color: #bababa;
+    display: flex;
+    align-items:center;
+    border-radius: 20px;
+}
+.search img{
+    padding-left: 17px;
+}
+.logo img{
+    height: 72px;
+}
