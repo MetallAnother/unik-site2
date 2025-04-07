@@ -1,16 +1,27 @@
-@import url('//fonts.googleapis.com/earlyaccess/jejugothic.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+p,h1,button{
+    font-family: "Inter Tight", sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 500;
+}
 p{
-    font-family: "Poppins", sans-serif;
+    font-size: 40px;
 }
 body{
     margin: 0px;
+    width: min(100%,1920px);
+    margin-inline: auto;
 }
 .navbar{
     
     background-color:#27445D;
 }
 .cont1{
-    width: min(100%,1668px);
+    width: min(100%,1826px);
     margin-inline: auto;
     display: flex;
     align-items: center;
@@ -20,31 +31,266 @@ body{
 .buttons{
     display: flex;
     align-items:center;
-   
-
+    width: min(100%,1462px);
+    justify-content: space-between;
 }
 .buttons >*{
-    margin-left: 28px;
-    margin-right: 28px;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
+    cursor: pointer;
+}
+form{
+    display: flex;
 }
 .search{
-    width: 492px;
-    height: 48px;
-    background-color: #bababa;
+    width: 472px;
+    height: 60px;
+    background-color: #ffffff;
     display: flex;
     align-items:center;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+input{
+    border: 0;
+    width: 470px;
+    height: 58px;
+    background-color: #ffffff;
+    padding-left: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+label{
+    display: flex;
+    align-items: center;
 }
 .search img{
-    padding-left: 17px;
-    width: 25px;
+    padding-left: 15px;
+    width: 34px;
+}
+input:focus{
+    border: 0px;
+    outline: 0px;
 }
 .logo img{
     height: 70px;
 }
+.scol{
+    width: 2000px;
+    background-color: #497D74;
+    width: 40px;
+}
 
-.logo{
-    /* margin-right: 40px; */
+
+
+
+
+
+
+
+
+
+
+
+.cont2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 761px;
+}
+.ctext1{
+    width: min(100%,582px);
+    margin-inline: auto;
+}
+.sport-life h1{
+    font-size: 60px;
+}
+.sport-life p{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.sport-life button{
+    width: 400px;
+    height: 84px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #27445D;
+    color: white;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.cimg1 img{
+    padding-top: 4px;
+}
+.sport-life button:hover{
+    background-color: #2e4f6d;
+}
+.sport-life button:active{
+    background-color: rgb(32, 56, 78);
+}
+
+
+
+
+
+
+
+
+
+.ab-us{
+    background-color: #27445D;
+}
+
+.cont3{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 911px;
+    justify-content: space-between;
+    color: white;
+}
+
+.cont3 h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 55px;
+}
+.cont3 p{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+.our-serv{
+    display: flex;
+    text-align: center;
+    background-color: #27445D;
+    color: white;
+}
+
+.ctext2{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    text-align: center;
+    height: 750px;
+    margin-top: 85px;
+}
+.our-serv p{
+    width: 650px;
+    /* line-height: 98px; */
+    margin-top: 50px;
+}
+.our-serv h1{
+    height: 77px;
+
+}
+
+
+
+
+
+
+
+.advantages{
+    height: 911px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+}
+
+.advantages h1{
+    padding-top: 20px;
+}
+
+
+
+
+
+.join-to{
+    height: 911px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+}
+
+.join-to h1{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.cont4{
+    width: min(100%,1820px);
+    margin-inline: auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.link{
+    display: flex;
+    margin-top: 10px;
+}
+
+.link .fimg{
+    width: 26px;
+    margin-right: 23px;
+    color: white;
+}
+.link p{
+    width: 532px;
+    font-size: 26px;
+}
+
+.r-link{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.fbuts{
+    display: flex;
+    justify-content: space-between;
+    width: 518px;
+}
+
+.fbuts p{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.img-link{
+    color: white;
+}
+
+.icon-link{
+    width: 143px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
