@@ -218,7 +218,7 @@ input:focus{
     height: 911px;
     display: flex;
     flex-wrap: wrap ;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .join-to h1{
@@ -294,3 +294,8 @@ input:focus{
     justify-content: space-between;
     cursor: pointer;
 }
+
+
+  body::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
