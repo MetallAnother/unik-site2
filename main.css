@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
-p,h1,button{
+p,h1,button,a{
     font-family: "Inter Tight", sans-serif;
     margin: 0px;
 }
@@ -26,19 +26,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 150px;
+    height: 120px;
 }
 .buttons{
     display: flex;
     align-items:center;
-    width: min(100%,1462px);
+    width: min(100%,1262px);
     justify-content: space-between;
 }
 .buttons >*{
     font-size: 30px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
+
 form{
     display: flex;
 }
@@ -170,7 +172,7 @@ input:focus{
 
 .our-serv{
     display: flex;
-    text-align: center;
+    /* text-align: center; */
     background-color: #27445D;
     color: white;
 }
@@ -179,7 +181,7 @@ input:focus{
     display: flex;
     flex-wrap: wrap ;
     justify-content: space-around;
-    text-align: center;
+    text-align: left;
     height: 750px;
     margin-top: 85px;
 }
@@ -190,6 +192,7 @@ input:focus{
 }
 .our-serv h1{
     height: 77px;
+    width: min(100%,650px);
 
 }
 
@@ -234,7 +237,7 @@ input:focus{
 
 
 .cont4{
-    width: min(100%,1820px);
+    width: min(100%,1700px);
     margin-inline: auto;
     height: 300px;
     display: flex;
@@ -270,7 +273,7 @@ input:focus{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .fbuts{
@@ -295,7 +298,32 @@ input:focus{
     cursor: pointer;
 }
 
+.mor-about h1{
+    font-size: 40px;
+}
+
 
   body::-webkit-scrollbar {
-    display: none; /* Chrome/Safari */
+    display: none;
   }
+
+
+.up{
+    position:fixed;
+    top: 780px;
+    left: 1830px;
+    width: 80px;
+    height: 80px;
+    background-color:#2e4f6d;
+    border-radius:20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: .3s;
+}
+.up img{
+    width: 40px;
+    
+}
